@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tailwind Test</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..."; crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white w-[100%] min-h-full">
+  <div class="header w-[100%] mt-[10px] mx-[25px]">
+    <nav class="flex flex-row justify-between items-center pt-10">
+      <img src="" alt="website logo" class="pr-4"/>
+      <ul class="flex justify-between items-center">
+        <li class="mr-2 transition scale-50 hover:scale-75"><a href="#" class=" decoration-0 font-bold sm:text-1xl lg:text-2xl xl:text-4xl text-xl text-[#00ff51] underline underline-offset-8">Home</a></li>
+        <li class="mr-2 transition scale-50 hover:scale-75"><a href="#" class=" decoration-0 font-bold sm:text-xl lg:text-2xl xl:text-4xl hover:text-[#00ff51] hover:underline hover:underline-offset-8 text-xl transition-all duration-3000 delay-3000">About</a></li>
+        <li class="mr-2 transition scale-50 hover:scale-75"><a href="#" class=" decoration-0 font-bold sm:text-xl lg:text-2xl xl:text-4xl hover:text-[#00ff51] hover:underline hover:underline-offset-8 text-xl">Services</a></li>
+        <li class="mr-2 transition scale-50 hover:scale-75"><a href="#" class=" decoration-0 font-bold sm:text-xl lg:text-2xl xl:text-4xl hover:text-[#00ff51] hover:underline hover:underline-offset-8 text-xl">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="hero flex justify-between items-center gap-14 mx-[25px] mt-[10%]">
+    <div class="hero-text">
+      <h1 class="hero-header font-bold text-3xl capitalize">hi i'm samuel</h1>
+      <p class="capitalize text-[#00ff51] text-center text-1xl font-bold">frontend developer</p>
+      <div class="hero-social flex justify-evenly items-center mt-3">
+        <i class="fa-brands fa-github border-2 border-[#00ff51] hover:bg-[#00ff51] hover:backdrop-blur p-2 rounded-full text-[#00ff51]"></i>
+        <i class="fa-brands fa-linkedin border-2 border-[#00ff51] hover:bg-[#00ff51] hover:backdrop-blur p-2 rounded-full text-[#00ff51]"></i>
+        <i class="fa-brands fa-whatsapp border-2 border-[#00ff51] hover:bg-[#00ff51] hover:backdrop-blur p-2 rounded-full text-[#00ff51]"></i>
+        <i class="fa-brands fa-twitter border-2 border-[#00ff51] hover:bg-[#00ff51] hover:backdrop-blur p-2 rounded-full text-[#00ff51]"></i>
+      </div>
+      <div class="hero-cta mt-4 text-center">
+        <button class="capitalize font-bold shadow bg-[#00ff51] text-xl p-2 px-5 text-center rounded-full">hire</button>
+      </div>
+    </div>
+    <img src="https://wallpapersden.com/scorpion-mortal-kombat-dark-minimal-wallpaper" alt="hero image" class="hero-img w-[200px] h-[200px] rounded-full hovering shadowing"/>
+  </div>
+  
+  <div id="about"class="about-section mx-[25px] mt-[10%] w-[100%]">
+    <h3 class="text-center text-2xl font-bold text-[#00ff51] capitalize">about me</h3>
+    <div class=" mt-6 border-2 border-green-200 grid grid-cols-2 justify-center items-center p-2">
+      <img src="https://wallpapersden.com/scorpion-mortal-kombat-dark-minimal-wallpaper" alt="hero image" class="hero-img w-[200px] h-[200px] rounded-full hovering shadowing"/>
+      
+      <div class="about-text flex-1">
+        <h4 class="capitalize text-xl font-bold">nwachukwu samuel</h4>
+        <p class="capitalize text-xl text-[#00ff51] font-bold">frontend developer</p>
+        <p>i am 24 years old. i started learning how to code in 2020 during the Covid-19 pandemic and immediately ventured into front-end development(<span>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+        </span>)</p>
+        <button>hire</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
